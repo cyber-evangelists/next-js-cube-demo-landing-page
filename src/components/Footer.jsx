@@ -131,9 +131,13 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col-reverse gap-5 min-md:flex-row min-md:justify-between  pb-8 ">
-          <div className="flex">
-            <p className="text-secondry hover:text-primary">Terms</p>
-            <p className="text-secondry hover:text-primary">Terms</p>
+          <div className="flex gap-4">
+            <p className="text-secondry hover:text-primary cursor-pointer text-sm">
+              Terms
+            </p>
+            <p className="text-secondry hover:text-primary cursor-pointer text-sm">
+              Privacy Policy
+            </p>
           </div>
           <div className="flex gap-4 ">
             <FontAwesomeIcon
