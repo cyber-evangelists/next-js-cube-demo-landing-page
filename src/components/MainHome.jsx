@@ -10,6 +10,7 @@ import JoinUs from "@/components/JoinUs";
 import Footer from "@/components/Footer";
 import React, { useState } from "react";
 import Carousal from "./Carousal";
+import IntegrationOptions from "./IntegrationOptions";
 
 const MainHome = () => {
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -20,6 +21,7 @@ const MainHome = () => {
       <Reviews />
       <Carousal />
       <Features />
+      <IntegrationOptions />
       <BusinessPlan />
       <ClientReview />
       <FAQs />

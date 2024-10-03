@@ -15,7 +15,7 @@ const BusinessPlan = () => {
       <div className="max-w-5xl xs:py-12  min-md:pt-20 mx-auto xs:px-4">
         <div className="xs:pb-12  min-md:mx-10 max-w-4xl">
           <div className="min-md:mx-10 min-md:px-7 max-w-3xl ">
-            <h2 className="text-primary font-bold xs:text-5xl min-md:text-5xl text-center mb-4">
+            <h2 className="text-primary font-bold xs:text-2xl min-md:text-5xl text-center mb-4">
               Let's find the right plan for you business
             </h2>
             <p className="text-secondry text-center text-xl mb-10 ">
