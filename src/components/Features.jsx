@@ -10,7 +10,7 @@ const Features = () => {
     <section className="bg-detailsBg ">
       <div className="max-w-5xl xs:py-12  min-md:pt-20 mx-auto xs:px-4">
         <div className="xs:pb-12 min-md:pb-20 min-md:mx-10 max-w-4xl">
-          <h2 className="text-primary font-bold xs:text-5xl min-md:text-5xl text-center">
+          <h2 className="text-primary font-bold  xs:text-2xl min-md:text-5xl text-center">
             Features to help you create your best designs
           </h2>
         </div>
@@ -57,7 +57,7 @@ const Features = () => {
               {/* Conditional Content */}
               {featureSelect === "everyone" ? (
                 <div>
-                  <h3 className="text-primary mb-2 text-4xl font-bold">
+                  <h3 className="text-primary mb-2 text-2xl font-bold">
                     Kickstart your project with these tools
                   </h3>
                   <p className="text-secondry">
@@ -71,7 +71,7 @@ const Features = () => {
 
               {featureSelect === "freelancers" ? (
                 <div>
-                  <h3 className="text-primary mb-2 text-4xl font-bold">
+                  <h3 className="text-primary mb-2 text-2xl font-bold">
                     Tech tools to kickstart freelance life
                   </h3>
                   <p className="text-secondry">
@@ -85,7 +85,7 @@ const Features = () => {
 
               {featureSelect === "organizations" ? (
                 <div>
-                  <h3 className="text-primary mb-2 text-4xl font-bold">
+                  <h3 className="text-primary mb-2 text-2xl font-bold">
                     Share your plan and clarify project risk
                   </h3>
                   <p className="text-secondry">
