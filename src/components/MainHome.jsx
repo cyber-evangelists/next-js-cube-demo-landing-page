@@ -9,6 +9,7 @@ import FAQs from "@/components/FAQs";
 import JoinUs from "@/components/JoinUs";
 import Footer from "@/components/Footer";
 import React, { useState } from "react";
+import Carousal from "./Carousal";
 
 const MainHome = () => {
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -17,6 +18,7 @@ const MainHome = () => {
       {headerVisible ? <Header setHeaderVisible={setHeaderVisible} /> : null}
       <LandingPage />
       <Reviews />
+      <Carousal />
       <Features />
       <BusinessPlan />
       <ClientReview />
