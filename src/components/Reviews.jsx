@@ -8,7 +8,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 const Reviews = () => {
   return (
-    <section className="bg-top-gradient">
+    <section className="bg-detailsBg">
       <div className="max-w-5xl mx-auto ">
         <div className="xs:px-4 xs:py-12 min-md:py-20 min-md:px-4 flex flex-col min-md:flex-row gap-4 justify-center items-center">
           <div className="flex flex-col items-center min-md:w-1/3">

@@ -7,7 +7,7 @@ import heroImg from "@/public/assets/hero-image.png";
 
 const LandingPage = () => {
   return (
-    <div className="bg-top-gradient ">
+    <div className="bg-detailsBg bg-hero-illustration ">
       <SubHeader />
       <div className="max-w-5xl mx-auto min-md:mt-8 min-md:pt-7 flex flex-col items-center justify-center">
         <div className="mx-10 px-7 max-w-3xl ">
@@ -36,8 +36,8 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        <div className="xs:mx-auto min-md:mx-10 px-5 min-md:px-6">
-          <Image src={heroImg} />
+        <div className="xs:mx-auto min-md:mx-10 px-5 min-md:px-6 pt-10 ">
+          <Image src={heroImg} className="bg-join-us" />
         </div>
       </div>
     </div>

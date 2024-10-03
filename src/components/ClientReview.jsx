@@ -5,7 +5,7 @@ import r2 from "@/public/assets/testimonial-02.jpg";
 const ClientReview = () => {
   return (
     <section className="bg-detailsBg min-md:pt-10">
-      <div className="bg-testimonial-gradient max-w-5xl xs:py-12  min-md:pt-20 mx-auto xs:px-4">
+      <div className=" max-w-5xl xs:py-12  min-md:pt-20 mx-auto xs:px-4">
         <div className="xs:pb-12  min-md:mx-10 max-w-4xl">
           <div className="min-md:mx-10 min-md:px-7  max-w-3xl ">
             <div className="flex flex-col justify-center items-center">
