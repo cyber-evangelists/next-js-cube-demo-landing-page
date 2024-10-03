@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import logoImg from "@/public/assets/svg-image-1.svg";
 import cancel from "@/public/assets/cancel.svg";
@@ -5,7 +6,7 @@ import Image from "next/image";
 import { Menu, Dropdown } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 
-const Header = () => {
+const Header = ({ setHeaderVisible }) => {
   const menuItems = (
     <Menu
       items={[
@@ -51,7 +52,10 @@ const Header = () => {
                     Buy Now <span className="text-white/50">-</span> $49{" "}
                   </span>
                 </button>
-                <span className="cursor-pointer">
+                <span
+                  className="cursor-pointer"
+                  onClick={() => setHeaderVisible(false)}
+                >
                   <Image src={cancel} width={20} height={10} alt="cancel" />
                 </span>
               </div>
