@@ -8,6 +8,7 @@ import Image from "next/image";
 import ClientReview from "@/components/ClientReview";
 import FAQs from "@/components/FAQs";
 import JoinUs from "@/components/JoinUs";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ClientReview />
       <FAQs />
       <JoinUs />
+      <Footer />
     </>
   );
 }

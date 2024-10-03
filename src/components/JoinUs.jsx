@@ -4,7 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const JoinUs = () => {
   return (
-    <section className="bg-detailsBg bg-join-us ">
+    <section className="bg-tableBgPrimary bg-join-us ">
       <div className="max-w-5xl mx-auto  ">
         <div className=" px-4">
           <div className="flex flex-col items-center justify-center py-16 min-md:pt-24 min-md:pb-20">
