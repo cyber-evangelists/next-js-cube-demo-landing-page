@@ -51,7 +51,7 @@ module.exports = {
           "linear-gradient(114deg, rgba(17,24,39,1) 16%, rgba(35,36,78,1) 28%, rgba(35,36,78,1) 42%, rgba(2,16,38,1) 63%, rgba(17,24,39,1) 90%);",
         "testimonial-gradient":
           "linear-gradient(112deg, rgba(18,26,45,1) 18%, rgba(35,36,78,1) 28%, rgba(35,36,78,1) 30%, rgba(18,26,45,1) 42%, rgba(18,26,45,1) 97%);",
-        "join-us": "url('/src/public/assets')",
+        "join-us": "url('../public/assets/cta-illustration.svg')",
       },
       colors: {
         background: "var(--background)",

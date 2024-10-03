@@ -7,6 +7,7 @@ import SubHeader from "@/components/subHeader/SubHeader";
 import Image from "next/image";
 import ClientReview from "@/components/ClientReview";
 import FAQs from "@/components/FAQs";
+import JoinUs from "@/components/JoinUs";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <BusinessPlan />
       <ClientReview />
       <FAQs />
+      <JoinUs />
     </>
   );
 }
